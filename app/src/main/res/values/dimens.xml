@@ -1,0 +1,21 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="default_view_padding">16dp</dimen>
+    <dimen name="software_licenses_activity_padding">8dp</dimen>
+    <dimen name="software_licenses_activity_library_text_size">16sp</dimen>
+    <dimen name="recycler_view_last_item_padding">88dp</dimen>
+    <dimen name="imprint_dialog_padding">20dp</dimen>
+    <dimen name="imprint_dialog_spacing">10dp</dimen>
+    <dimen name="help_dialog_padding">20dp</dimen>
+    <dimen name="help_dialog_spacing">10dp</dimen>
+
+    <dimen name="list_item_three_lines_height">88dp</dimen>
+    <dimen name="list_item_three_first_line_margin_top">12dp</dimen>
+    <dimen name="list_item_three_other_line_margin_top">2dp</dimen>
+    <dimen name="list_item_three_last_line_margin_bottom">12dp</dimen>
+    <dimen name="list_item_padding_start">16dp</dimen>
+    <dimen name="list_item_padding_end">8dp</dimen>
+    <dimen name="list_item_image_button_size">32dp</dimen>
+    <dimen name="list_item_metadata_margin_start">16dp</dimen>
+    <dimen name="list_item_options_button_margin_start">16dp</dimen>
+</resources>

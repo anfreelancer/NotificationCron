@@ -1,0 +1,2 @@
+* Added possibility to deactivate notifications
+* Added help dialog

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.licenses.LicensesActivity"
+    tools:viewBindingIgnore="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingVertical="@dimen/software_licenses_activity_padding">
+
+        <!--suppress AndroidLintHardcodedText -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/software_licenses_activity_padding"
+            android:text="Kotlin Standard Library JDK 8"
+            android:textSize="@dimen/software_licenses_activity_library_text_size"
+            android:textStyle="bold" />
+
+        <include layout="@layout/template_license_apache_hint" />
+
+        <include layout="@layout/template_license_separator" />
+
+        <!--suppress AndroidLintHardcodedText -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/software_licenses_activity_padding"
+            android:text="Several AndroidX libraries"
+            android:textSize="@dimen/software_licenses_activity_library_text_size"
+            android:textStyle="bold" />
+
+        <include layout="@layout/template_license_apache_hint" />
+
+        <include layout="@layout/template_license_separator" />
+
+        <!--suppress AndroidLintHardcodedText -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/software_licenses_activity_padding"
+            android:text="Android Material"
+            android:textSize="@dimen/software_licenses_activity_library_text_size"
+            android:textStyle="bold" />
+
+        <include layout="@layout/template_license_apache_hint" />
+
+        <include layout="@layout/template_license_separator" />
+
+        <!--suppress AndroidLintHardcodedText -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/software_licenses_activity_padding"
+            android:text="Material design icons"
+            android:textSize="@dimen/software_licenses_activity_library_text_size"
+            android:textStyle="bold" />
+
+        <include layout="@layout/template_license_apache_hint" />
+
+        <include layout="@layout/template_license_separator" />
+
+        <!--suppress AndroidLintHardcodedText -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/software_licenses_activity_padding"
+            android:text="jmrozanec/cron-utils"
+            android:textSize="@dimen/software_licenses_activity_library_text_size"
+            android:textStyle="bold" />
+
+        <!--suppress AndroidLintHardcodedText -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/software_licenses_activity_padding"
+            android:text="Joze Martin Rozanec" />
+
+        <include layout="@layout/template_license_apache_hint" />
+
+        <include layout="@layout/template_license_separator" />
+
+        <!--suppress AndroidLintHardcodedText -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/software_licenses_activity_padding"
+            android:text="afollestad/material-dialogs"
+            android:textSize="@dimen/software_licenses_activity_library_text_size"
+            android:textStyle="bold" />
+
+        <!--suppress AndroidLintHardcodedText -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/software_licenses_activity_padding"
+            android:text="Aidan Follestad" />
+
+        <include layout="@layout/template_license_apache_hint" />
+
+        <include layout="@layout/template_license_separator" />
+
+        <!--suppress AndroidLintHardcodedText -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/software_licenses_activity_padding"
+            android:text="square/moshi"
+            android:textSize="@dimen/software_licenses_activity_library_text_size"
+            android:textStyle="bold" />
+
+        <!--suppress AndroidLintHardcodedText -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/software_licenses_activity_padding"
+            android:text="Square, Inc." />
+
+        <include layout="@layout/template_license_apache_hint" />
+
+        <include layout="@layout/template_license_separator" />
+
+        <TextView
+            android:id="@+id/apacheText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/software_licenses_activity_padding"
+            android:textSize="11sp"
+            tools:ignore="SmallSp" />
+
+    </LinearLayout>
+</ScrollView>
